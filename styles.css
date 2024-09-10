@@ -1,0 +1,60 @@
+body {
+    color: white; /* Cor do texto em branco */
+    background: black; /* Fundo preto */
+    margin: 0px; /* Remove a margem padrão */
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte "Chakra Petch" */
+    margin-bottom: 100px; /* Adiciona uma margem inferior de 100px */
+}
+
+header {
+    border-bottom: solid 2px rgb(42, 122, 228); /* Borda sólida de 2px na cor azul na parte inferior do cabeçalho */
+    padding: 20px; /* Adiciona 20px de preenchimento ao redor do cabeçalho */
+    font-size: 32px; /* Tamanho da fonte para o texto no cabeçalho */
+    color: rgb(42, 122, 228); /* Cor do texto no cabeçalho em azul */
+}
+
+.chamada {
+    background: rgb(184, 156, 213); /* Fundo lilás claro para a seção chamada */
+    padding-bottom: 80px; /* Preenchimento de 80px na parte inferior da seção chamada */
+    padding-top: 80px; /* Preenchimento de 80px na parte superior da seção chamada */
+    display: flex; /* Define o layout como flexível */
+    justify-content: center; /* Alinha o conteúdo ao centro horizontalmente */
+}
+
+.chamada-texto {
+    margin-right: 5%; /* Margem direita de 5% para a classe chamada-texto */
+}
+
+h1 {
+    font-size: 40px; /* Tamanho da fonte para o título principal */
+}
+
+p {
+    font-size: 20px; /* Tamanho da fonte para parágrafos */
+}
+
+.categoria-videos {
+    display: flex; /* Define o layout como flexível */
+    overflow-x: auto; /* Permite rolagem horizontal se o conteúdo exceder a largura */
+    gap: 10px; /* Espaçamento de 10px entre os vídeos */
+}
+
+.categoria {
+    padding-left: 20px; /* Preenchimento de 20px à esquerda na seção categoria */
+    padding-right: 20px; /* Preenchimento de 20px à direita na seção categoria */
+    margin-top: 50px; /* Espaço superior da seção categoria */
+}
+
+.categoria-videos img {
+    opacity: 0.5; /* Opacidade reduzida para imagens */
+    height: 200px; /* Altura fixa para as imagens */
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0; /* Opacidade total ao passar o mouse sobre a imagem */
+    border: 3px solid green; /* Borda verde de 3px ao passar o mouse sobre a imagem */
+}
+
+.categoria h2 {
+    color: rgb(42, 122, 228); /* Cor do título da categoria em azul */
+}
